@@ -24,9 +24,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details open>
   <summary>uitwerken na schetsen idee (voor week 2)</summary>
+  Tijdens deze les hebben we een logo gekozen en schetsen voor de animatie gemaakt. Ik heb het Dunkin' Donuts logo gekozen. Hieronder zijn mijn schetsen te zien.
 ![schets1](https://user-images.githubusercontent.com/94449426/153228138-0fe05d5a-e6fd-4369-9d17-cf3e76b9a5cb.jpg)
-  
+  Voor deze eerste schets heb ik een animatie bedacht waarin de beker koffie kantelt en de koffie eruit giet, waardoor de letters van het logo worden ingevuld.
 ![schets2](https://user-images.githubusercontent.com/94449426/153228168-1af576d6-1b8d-4499-a774-5fd54c865216.jpg)
+  Voor de tweede schets heb ik de 'o' die op een donut lijkt uitvergtroot en in de beker koffie gedipt. Hierna gaat hij weer terug naar zijn plek en wordt er een hapje uit genomen.
 
 
   ### Je storyboard:
