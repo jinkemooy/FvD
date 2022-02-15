@@ -28,20 +28,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <img src="readme-images/schets1.jpg" alt="eerste schets voor opdracht 1">
   Voor deze eerste schets heb ik een animatie bedacht waarin de beker koffie kantelt en de koffie eruit giet, waardoor de letters van het logo worden ingevuld.
 <img src="readme-images/schets2.jpg" alt="tweede schets voor opdracht 1">
-  Voor de tweede schets heb ik de 'o' die op een donut lijkt uitvergtroot en in de beker koffie gedipt. Hierna gaat hij weer terug naar zijn plek en wordt er een hapje uit genomen.
+  Voor de tweede schets heb ik de 'o' die op een donut lijkt uitvergroot en in de beker koffie gedipt. Hierna gaat hij weer terug naar zijn plek en wordt er een hapje uit genomen.
 
 Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik denk dat deze animatie beter past bij het merk zelf, de donut wordt namelijk letterlijk in de koffie gedunkt, en dat is wel geinig denk ik.
 
   ### Je storyboard:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="storyboard voor opdracht 1">
+  <img src="readme-images/storyboard.png" alt="storyboard voor opdracht 1">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - 
  
 </details>
 
