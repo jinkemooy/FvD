@@ -38,7 +38,11 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - 
+  - Ik wil meer leren over SVG's en paths, ik heb daar vorig blok kort mee gewerkt, maar nog niet echt zelf vormen gemaakt.
+  - Ik wil ook meer leren over animeren met CSS, de oefeningetjes van de eerste les vond ik al erg leerzaam.
+  
+  Een klein plan voor het icoon van het logo:
+  <img src="readme-images/planschets.jpeg" alt="schets voor de SVG's van het icoon">
  
 </details>
 
