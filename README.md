@@ -14,9 +14,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Bronnenlijst
-  1. -bron 1-
-  2. -bron 2-
-  3. -...-
+  1. https://stringfixer.com/nl/Dunkin%27_Donuts (het logo)
+  2. https://www.educative.io/edpresso/how-to-add-a-line-break-using-css (voor code om "Donuts" op de volgende regel te krijgen)
+  3. 
 
 
 
