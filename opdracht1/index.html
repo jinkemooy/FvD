@@ -3,7 +3,7 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Jinke Mooy">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Opdracht 1: Brand Animation - Frontend voor Designers</title>
@@ -13,8 +13,76 @@
 </head>
 
 <body>
-	<h1>Opdracht 1</h1>
+	<section>
+<!--
+		<svg>
+			<path d="M 53 185 C 62 180 55 172 59 158 C 66 146 80 163 66 166 C 61 166 61 161 64 160"></path>
+			<path d="M 53 185 C 59 170 44 164 40 175 C 39 181 47 181 46 176 C 45 174 43 175 43 176"></path>
+			<rect></rect>
+			<rect></rect>
+			<ellipse cx="60" cy="40" rx="60" ry="15"></ellipse>
+			<ellipse cx="60" cy="48" rx="48" ry="6"></ellipse>
+			<path d="M 40 80 C 60 90 90 90 110 80 L 110 110 C 90 120 60 120 40 110 L 40 80"></path>
+			<path d="M 53 185 C 63 196 89 196 99 185 L 105 110 C 89 115 62 115 45 110 L 53 185"></path>
+			<text x="12" y="10" fill="black">DD</text>
+		</svg>
+-->
 
+		<!-- Icoon, vierkante achtergrond -->
+		<svg viewBox="0 0 220 220" preserveAspectRatio="preserve">
+			<defs>
+				<linearGradient id="dd--achtergrond">
+					<stop offset="50%" stop-color="#F5821F"></stop>
+					<stop offset="50%" stop-color="#E11383" ></stop>
+				</linearGradient>
+			</defs>
+
+			<g>
+				<rect x=10 y=10 width="200" height="200" rx="25" fill="url(#dd--achtergrond)"/>
+			</g>
+			
+			<!-- Icoon, koffiebeker -->
+			<ellipse rx="70" ry="16" cx="75" cy="54"/>
+			<path
+				d="M 10 54
+				L 35 100
+				A 140 140 0 0 0 155 55
+				L 142 5
+				M 40 100
+				A 40 20 0 0 1 50 110
+				L 100 200
+				A 60 60 0 0 0 185 175
+				L 152 70
+				A 40 20 0 0 1 155 55
+				"
+			/>	
+			<path
+				d="M 10 54
+				L 35 100
+				A 140 140 0 0 0 155 55
+				L 142 5
+				M 40 100
+				A 40 20 0 0 1 50 110
+				L 100 200
+				A 60 50 0 0 0 185 175
+				L 152 70
+				A 40 20 0 0 1 155 55
+				"
+			/>	
+
+			<ellipse rx="52" ry="6" cx="80" cy="55"/>	
+			<ellipse rx="70" ry="14" cx="75" cy="55"/>
+			<text x=80 y="150">D</text>
+			<text x=112 y="139">D</text>
+
+		</svg>
+
+		<!-- Dunkin' Donuts letters -->
+		<h1>
+			<span>DUNKIN'</span>
+			<span>D</span><span>O</span><span>NUTS</span>
+		</h1>
+	</section>
 	<script src="scripts/script.js"></script>
 </body>
 	
