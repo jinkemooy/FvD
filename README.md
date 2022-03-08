@@ -64,6 +64,7 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
   - Ik heb veel geleerd over SVG's, hoe je deze maakt en positioneert met CSS.
   - Ik heb een beetje geleerd over verschillende animatie attributen zoals animation-timing-function en animation-fill-mode.
 <img src="readme-images/resultaatdark.png" width="375px" alt="het resultaat in dark mode">
+<img src="readme-images/resultaatrunning.png" width="375px" alt="het resultaat in beweging">
 
 
   ### Dit was lastig/Is niet gelukt:
