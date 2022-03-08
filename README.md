@@ -64,7 +64,6 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
   - Ik heb veel geleerd over SVG's, hoe je deze maakt en positioneert met CSS.
   - Ik heb een beetje geleerd over verschillende animatie attributen zoals animation-timing-function en animation-fill-mode.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -73,9 +72,9 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
   
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/pathfaal1" alt="mijn eerste poging tot path">
+  <img src="readme-images/pathfaal1.jpg" alt="mijn eerste poging tot path">
   Hier heb ik geprobeerd een path te maken van de vorm van de bovenkant van de koffiebeker.
-  <img src="readme-images/pathfaal2" alt="mijn tweede poging tot path">
+  <img src="readme-images/pathfaal2.jpg" alt="mijn tweede poging tot path">
   Hier heb ik het nog eens geprobeerd.
 </details>
 
