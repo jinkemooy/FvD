@@ -16,7 +16,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Bronnenlijst
   1. https://stringfixer.com/nl/Dunkin%27_Donuts (het logo)
   2. https://www.educative.io/edpresso/how-to-add-a-line-break-using-css (voor code om "Donuts" op de volgende regel te krijgen)
-  3. 
+  3. https://stackoverflow.com/questions/7825509/css3-chain-animations (zodat de animatie goed verloopt)
+  4. https://cssgradient.io/blog/css-gradient-text/ (Gebruikt voor het roze en bruine van de donut)
 
 
 
@@ -55,19 +56,27 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/resultaat.png" width="375px" alt="uitkomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  - De media query's gingen goed, het was gelukt om het logo responsive te maken, de dark/light mode en de verminderde beweging setting.
+  - Ik heb veel geleerd over SVG's, hoe je deze maakt en positioneert met CSS.
+  - Ik heb een beetje geleerd over verschillende animatie attributen zoals animation-timing-function en animation-fill-mode.
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
+  - Ik vond het icoon van het logo mega lastig, ik ben daar het meeste van de tijd mee bezig geweest, waardoor ik minder tijd over had voor de animatie. Dat vind ik heel jammer, want ik had graag nog wat meer met de animatie willen doen. Hij is bijvoorbeeld nu nog best wel statisch en beweegt niet helemaal leuk zoals ik zou willen. En de hapjes eruit is ook niet meer gelukt uiteindelijk.
+  - De paths begreep ik niet goed, ik had veel op internet gezocht hoe je een bepaalde vorm maakt met een path en ik denk dat je een soort wiskunde ervoor moet gebruiken, maar ik snapte het niet echt. Ik heb hiervoor hulp moeten inschakelen uiteindelijk.
+  
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img src="readme-images/pathfaal1" alt="mijn eerste poging tot path">
+  Hier heb ik geprobeerd een path te maken van de vorm van de bovenkant van de koffiebeker.
+  <img src="readme-images/pathfaal2" alt="mijn tweede poging tot path">
+  Hier heb ik het nog eens geprobeerd.
 </details>
 
 
