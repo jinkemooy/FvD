@@ -43,7 +43,8 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
   - Ik wil ook meer leren over animeren met CSS, de oefeningetjes van de eerste les vond ik al erg leerzaam.
   
   Een klein plan voor het icoon van het logo:
-  <img src="readme-images/planschets" alt="schets voor de SVG's van het icoon">
+  
+  <img src="readme-images/planschets.jpg" width="375px" alt="schets voor de SVG's van het icoon">
  
 </details>
 
@@ -52,7 +53,6 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
 ## Opdracht 1 reflectie
 
 <details>
-  <summary>uitwerken bij afronden opdracht (voor week 3)</summary>
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
@@ -63,12 +63,13 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
   - De media query's gingen goed, het was gelukt om het logo responsive te maken, de dark/light mode en de verminderde beweging setting.
   - Ik heb veel geleerd over SVG's, hoe je deze maakt en positioneert met CSS.
   - Ik heb een beetje geleerd over verschillende animatie attributen zoals animation-timing-function en animation-fill-mode.
-
+<img src="readme-images/resultaatdark.png" width="375px" alt="het resultaat in dark mode">
 
 
   ### Dit was lastig/Is niet gelukt:
   - Ik vond het icoon van het logo mega lastig, ik ben daar het meeste van de tijd mee bezig geweest, waardoor ik minder tijd over had voor de animatie. Dat vind ik heel jammer, want ik had graag nog wat meer met de animatie willen doen. Hij is bijvoorbeeld nu nog best wel statisch en beweegt niet helemaal leuk zoals ik zou willen. En de hapjes eruit is ook niet meer gelukt uiteindelijk.
   - De paths begreep ik niet goed, ik had veel op internet gezocht hoe je een bepaalde vorm maakt met een path en ik denk dat je een soort wiskunde ervoor moet gebruiken, maar ik snapte het niet echt. Ik heb hiervoor hulp moeten inschakelen uiteindelijk.
+  - Ik heb de 'stoom' die van de koffiebeker afkomt niet gemaakt. Ik durfde niet meer met paths te werken.
   
   Korte omschrijving met plaatje(s)
 
