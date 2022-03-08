@@ -77,6 +77,9 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
   Hier heb ik geprobeerd een path te maken van de vorm van de bovenkant van de koffiebeker.
   <img src="readme-images/pathfaal2.jpg" alt="mijn tweede poging tot path">
   Hier heb ik het nog eens geprobeerd.
+  
+  ### Conclusie:
+  Ik denk dat ik iets te ambitieus ben geweest met het logo, om helemaal het icoon te maken met SVG's en paths. Hierdoor heb ik me minder goed op de animatie kunnen focussen, waar ik juist meer over wilde leren. Mijn animatie is nu nog heel basic en zou veel leuker kunnen zijn met iets meer tijd en moeite. Dat is wel jammer, maar ik heb alsnog veel geleerd over verschillende media query's en ook wel over paths, ook al was dit niet helemaal gelukt.
 </details>
 
 
