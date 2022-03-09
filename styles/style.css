@@ -1,0 +1,278 @@
+/* CSS Document */
+
+/*********/
+/* FONTS */
+/*********/
+@font-face {
+	font-family: 'Frankfurter';
+	src: url('../fonts/Frankfurter\ Std\ Regular.otf') format('opentype');
+}
+
+
+
+
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-roze:#E11383;
+	--color-oranje: #F5821F;
+	--color-bruin: #683817;
+	--color-background:rgb(255, 255, 255);
+	--color-darkmode: #333;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+html{
+	height: 100%;
+}
+
+body {
+  font-family: Frankfurter, sans-serif;
+  color:var(--color-oranje);
+  background-color:var(--color-background);
+  font-size: 4em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body section{
+	display: flex;
+	align-items: center;
+	gap: .25em;
+	max-width: 100%;
+}
+
+/* body h1{
+	background-image: linear-gradient(to right, var(--color-oranje) 0 50%, var(--color-roze) 50% 100%);
+} */
+
+/* jouw code */
+body section h1{
+	margin: 0;
+	font-size: 4em;
+}
+
+body section h1 span{
+	display: inline;
+	letter-spacing: .05em;
+}
+
+/* 'Dunkin' roze kleur */
+body section h1 span:nth-of-type(2){
+	color: var(--color-roze);
+	letter-spacing: 0;
+}
+body section h1 span:nth-of-type(3){
+	color: var(--color-roze);
+	letter-spacing: 0;
+	position: relative;
+}
+body section h1 span:nth-of-type(4){
+	color: var(--color-roze);
+	letter-spacing: 0;
+}
+
+/* 'Donuts' op volgende regel (bron in README) */
+span:nth-of-type(1):after{
+	content:"\a";
+    white-space: pre;
+}
+
+/****************/
+/* STYLING ICOON */
+/****************/
+svg {
+	border-radius: .4em;
+	position: relative;
+	width: 7em;
+	height: 7em;
+	right: 2em;
+}
+
+/* Bovenste rand van de koffiebeker*/
+svg > ellipse:nth-of-type(1) {
+	position: absolute;
+	width: 3em;
+	height: 3em;
+	fill: var(--color-background);
+	stroke: var(--color-background);
+	stroke-width: 8px;
+	transform-box: fill-box;
+	transform: rotate(-20deg)
+}
+
+/* Omlijning in het wit */
+svg > path:nth-of-type(1) {
+	fill: var(--color-background);
+	stroke: var(--color-background);
+	stroke-width: 18px;
+	stroke-linejoin: round;
+}
+
+/* Koffiebeker */
+svg > path:nth-of-type(2) {
+	fill: var(--color-background);
+	stroke: var(--color-bruin);
+	stroke-width: 4px;
+	stroke-linejoin: round;
+}
+
+/* De koffie in de beker */
+svg > ellipse:nth-of-type(2) {
+	position: absolute;
+	stroke: var(--color-bruin);
+	stroke-width: 4px;
+	fill: var(--color-bruin);
+	transform-box: fill-box;
+	transform: rotate(-20deg)
+}
+
+/* Aller bovenste rand van koffiebeker */
+svg > ellipse:nth-of-type(3) {
+	position: absolute;
+	stroke: var(--color-bruin);
+	stroke-width: 4px;
+	fill: transparent;
+	transform-box: fill-box;
+	transform: rotate(-20deg)
+}
+
+/* DD tekst op kopje */
+svg > text:nth-of-type(1) {
+	position: absolute;
+	font-size: 40px;
+	fill: var(--color-oranje);
+	transform-box: fill-box;
+	transform: rotate(-20deg)
+}
+
+svg > text:nth-of-type(2) {
+	position: absolute;
+	font-size: 40px;
+	fill: var(--color-roze);
+	transform-box: fill-box;
+	transform: rotate(-20deg)
+}
+
+/* ANIMATIE */
+body section h1 span:nth-of-type(3) {
+	-webkit-animation: donut 2s, draaien 1s;
+	-webkit-animation-delay: 0s, 2s;
+	animation-iteration-count: 1;
+	display: inline-block;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes donut {
+	0% {
+		transform: translate(0);
+	}
+	10% {
+		transform: translate(-50px,-100px);
+	}
+	20% {
+		transform: translate(-150px,-175px);
+	}
+	30% {
+		transform: translate(-250px,-200px);
+	}
+	40% {
+		transform: translate(-265px,-175px);
+	}
+	50% {
+		transform: translate(-250px,-120px);
+	}
+	60% {
+		transform: translate(-265px,-175px);
+	}
+	70% {
+		transform: translate(-250px,-200px);
+	}
+	80% {
+		transform: translate(-150px,-175px);
+	}
+	90% {
+		transform: translate(-50px,-100px);
+		background: linear-gradient(to bottom, var(--color-roze) 0 50%, var(--color-bruin) 50% 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	100% {
+		transform: translate(0);
+		background: linear-gradient(to bottom, var(--color-roze) 0 50%, var(--color-bruin) 50% 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+
+@keyframes draaien{
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px),
+screen and (max-height: 1024px) {
+	section {
+		font-size: .75em;
+	}
+}
+
+@media only screen and (max-width: 490px),
+screen and (max-height: 732px) {
+	section {
+		font-size: .35em;
+	}
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--color-darkmode);
+	}
+	svg > path:nth-of-type(1) {
+		fill: var(--color-darkmode);
+		stroke: var(--color-darkmode);
+	}
+	svg > ellipse:nth-of-type(1) {
+		stroke: var(--color-darkmode);
+	}
+}
+
+/* Verminder beweging setting */
+@media (prefers-reduced-motion: reduce) {
+	body section h1 span:nth-of-type(3) {
+		animation: none;
+	}
+}
