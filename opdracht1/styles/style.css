@@ -36,6 +36,7 @@ button, summary {
 	--color-oranje: #F5821F;
 	--color-bruin: #683817;
 	--color-background:rgb(255, 255, 255);
+	--color-darkmode: #333;
 }
 
 
@@ -258,14 +259,14 @@ screen and (max-height: 732px) {
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #333;
+		background-color: var(--color-darkmode);
 	}
 	svg > path:nth-of-type(1) {
-		fill: #333;
-		stroke: #333;
+		fill: var(--color-darkmode);
+		stroke: var(--color-darkmode);
 	}
 	svg > ellipse:nth-of-type(1) {
-		stroke: #333;
+		stroke: var(--color-darkmode);
 	}
 }
 
