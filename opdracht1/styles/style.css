@@ -74,6 +74,7 @@ body section{
 /* jouw code */
 body section h1{
 	margin: 0;
+	font-size: 4em;
 }
 
 body section h1 span{
@@ -108,8 +109,9 @@ span:nth-of-type(1):after{
 svg {
 	border-radius: .4em;
 	position: relative;
-	width: 3em;
-	height: 3em;
+	width: 7em;
+	height: 7em;
+	right: 2em;
 }
 
 /* Bovenste rand van de koffiebeker*/
