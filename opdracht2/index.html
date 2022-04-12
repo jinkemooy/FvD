@@ -3,7 +3,7 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Jinke">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Opdracht 2: Interactie galore - Frontend voor Designers</title>
@@ -13,9 +13,97 @@
 </head>
 
 <body>
-	<h1>Opdracht 2</h1>
+	<section>
+		<h1>Virtuele boekenkast</h1>
+	</section>
+	<section>
+		<h2>Mijn Boekenkast</h2>
+		<ul id="mijnLijst">
+		</ul>
+	</section>
+	<section id="boekenLijstContainer" class="mijnList">
+		<h2>Alle Boeken</h2>
+		<aside>
+			<section>
+				<label>Sorteer op:</label>
+				<button class="sort" data-sort="title">naam</button>
+				<button class="sort" data-sort="author"  data-default-order='asc'>auteur</button>
+			</section>
+			<section>
+				<label>Zoeken:</label>
+				<input class="search" placeholder="zoeken..." />
+			</section>
+		</aside>
+		<ul id="boekenLijst" class="list">
+			<li>
+				<h3 class="title">Aleksandra</h3>
+				<p class="author">Lisa Weeda</p>
+				<img src="/images/aleksandra.jpeg" alt="Aleksandra">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">Onderweg</h3>
+				<p class="author">Bente van de Wouw</p>
+				<img src="/images/onderweg.jpeg" alt="onderweg">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">Violeta</h3>
+				<p class="author">Isabel Allende</p>
+				<img src="/images/violeta.jpeg" alt="Violeta">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">It ends with us</h3>
+				<p class="author">Colleen Hoover</p>
+				<img src="/images/itendswithus.jpeg" alt="It ends with us">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">HTML en CSS voor dummies</h3>
+				<p class="author">Ed Tittel & Jeff Noble</p>
+				<img src="/images/dummies.jpeg" alt="HTML en CSS voor dummies">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">Grand Hotel Europa</h3>
+				<p class="author">Ilja Leonard Pfeijffer</p>
+				<img src="/images/europa.jpeg" alt="Grand hotel europa">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">21 lessen voor de 21ste eeuw</h3>
+				<p class="author">Yuval Noah Harari</p>
+				<img src="/images/lessen.jpeg" alt="21 lessen voor de 21ste eeuw">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">Naar het paradijs</h3>
+				<p class="author">Hanya Yanagihara</p>
+				<img src="/images/paradijs.jpeg" alt="Naar het paradijs">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">Daar waar de rivierkreeften zingen</h3>
+				<p class="author">Delia Owens</p>
+				<img src="/images/rivierkreeften.jpeg" alt="Daar waar de rivierkreeften zingen">
+				<button>+</button>
+			</li>
+			<li>
+				<h3 class="title">De wijsheid van de heks</h3>
+				<p class="author">Susan Smith</p>
+				<img src="/images/wijsheid.jpeg" alt="De wijsheid van de heks">
+				<button>+</button>
+			</li>
+		</ul>
+	</section>
 
+	<!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+	<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+	<!-- Sorteerbare lijst van https://listjs.com/overview/download/ -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
 	<script src="scripts/script.js"></script>
+
 </body>
 	
 </html>

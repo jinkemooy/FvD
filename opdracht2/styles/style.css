@@ -4,14 +4,11 @@
 /* FONTS */
 /*********/
 @font-face {
-	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.ttf');
 	font-weight: normal;
 	font-style: normal;
-
 }
-
 
 
 
@@ -37,7 +34,10 @@ button, summary {
 :root {
 	/* startje */
 	--color-main:#111;
-	--color-background:#eee;
+	--color-background:white;
+	--color-darkmode: #333;
+	--color-plus: rgb(136, 226, 100);
+	--color-min: rgb(240, 104, 80);
 }
 
 
@@ -48,10 +48,159 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 body {
-  font-family:eenfont, sans-serif;
+  font-family:Montserrat;
   color:var(--color-main);
   background-color:var(--color-background);
+  margin: 0;
+  padding: 0;
 }
 
 /* jouw code */
+section:nth-of-type(1) {
+	display: flex;
+}
 
+section h1 {
+	text-align: left;
+	font-size: 1.5em;
+	margin: .5em .5em 0;
+	position: relative;
+}
+
+h2 {
+	font-size: 1em;
+	margin: 1em 0 0 .8em;
+}
+
+h3 {
+	font-size: .6em;
+	padding: 0;
+	margin: 1em 0 0 1em;
+	max-width: 11.5em;
+	overflow: hidden;
+}
+
+p {
+	font-size: .5em;
+	padding: 0;
+	margin: 0 0 0 1.2em;
+}
+
+aside {
+	margin: 1em;
+	font-size: .7em;
+}
+
+aside section {
+	margin-bottom: .5em;
+}
+
+aside label {
+	margin-right: 1em;
+}
+
+section:nth-of-type(2) ul{
+	background-image: url(/images/plank.png);
+	background-repeat: repeat-x;
+	background-size: auto 30%;
+	background-position: center bottom;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0;
+	padding: 0 0 .5em;
+	list-style: none;
+	height: 18em;
+	width: 100%;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+ul#mijnList:empty::before {
+	text-align: center;
+	content: "Je boekenkast is nog leeg";
+}
+
+ul li button {
+	display: flex;
+	position: relative;
+	margin: auto;
+	background-color: var(--color-plus);
+	border: none;
+	border-radius: .5em;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+	width: 3em;
+	height: 1.5em;
+	justify-content: center;
+}
+
+.min {
+	background-color: var(--color-min);
+}
+
+
+section:nth-of-type(3) ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0;
+	padding: 0 0 2em 0;
+	list-style: none;
+	width: 100%;
+	overflow-x: scroll;
+	white-space: nowrap;
+  }
+
+  section:nth-of-type(3) ul li {
+	display: block;
+  }
+
+  li img {
+  width: 7em;
+  margin: .5em;
+  }
+
+
+/* Responsive */
+/* @media only screen and (min-width: 768px),
+screen and (min-height: 1024px) {
+	section {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 1280px),
+screen and (min-height: 1024px) {
+	section {
+		font-size: 2em;
+	}
+} */
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--color-darkmode);
+	}
+	h1 {
+		color: var(--color-background);
+	}
+	h2 {
+		color: var(--color-background);
+	}
+	h3 {
+		color: var(--color-background);
+	}
+	p {
+		color: var(--color-background);
+	}
+	aside {
+		color: var(--color-background);
+	}
+}
+
+/* Verminder beweging setting */
+@media (prefers-reduced-motion: reduce) {
+	body {
+		animation: none;
+	}
+}
