@@ -6,7 +6,8 @@ var boekenLijst = document.getElementById('boekenLijst')
 // boekButtons is een array
 var boekButtons = boekenLijst.querySelectorAll('button') 
 
-
+//voor animatie
+var boek = boekenLijst.querySelectorAll('li')
 
 
 // SORTEREN
@@ -57,3 +58,10 @@ buttonGeklikt.focus();
     
 }
 
+boek.forEach(boeken => {
+    boeken.addEventListener('drag', sleepAnimatie);
+});
+
+function sleepAnimatie () {
+    boek.classList.add('wiggle');
+}
