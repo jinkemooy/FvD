@@ -88,71 +88,40 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
 ## Opdracht 2 plan
 
 <details>
-  <summary>uitwerken na schetsen idee (voor week 4)</summary>
+  <summary>Voor opdracht 2 koos ik voor de film case, maar dan met boeken in plaats van films. Ik wil een soort boekenkast waar je boeken uit een lijst in kan slepen om te bewaren.</summary>
 
 
   ### Je ontwerp:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="ontwerp opdracht 2">
+  <img src="readme-images/plan2.jpg" alt="schets voor opdracht 2">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik wil leren hoe je dingen kunt sorteren/zoeken
+  - Ik wil meer oefenen met Javascript
 </details>
-
-
-
-## Opdracht 2 test
-
-<details>
-  <summary>uitwerken na testen (week 6/7)</summary>
-
-  Neem minimaal 5 bevindingen op:
-
-
-
-  ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 3:
-  ...
-</details>
-
 
 
 ## Opdracht 2 reflectie
 
 <details>
-  <summary>uitwerken bij afronden opdracht (voor week 8)</summary>
+  <summary>Er zijn een heleboel dingen die uiteindelijk niet gelukt zijn helaas, maar de belangrijkste dingen wel.</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitkomst opdracht 2">
+  <img src="readme-images/resultaat2.png" alt="uitkomst opdracht 2">
+  
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Ik heb veel geleerd van de Sortable.js website, hoe je een lijst maakt met drag&drop en hoe je dat met twee verschillende lijsten kunt doen. Ook heb ik geleerd over het sorteren van een lijst en hoe je dit doet met Javascript. Een interessant stuk code vond ik dat je alle list elementen in 1 keer kon selecteren.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="readme-images/resultaatsleep.png" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  - Ik heb voor mensen die de pagina met toetsenbord navigeren buttons toegevoegd met + en - om aan je lijst toe te voegen en te verwijderen, maar als je de boeken sleept dan werken deze niet. Het was me niet gelukt om het wel zo te krijgen.
+  - Ik wilde een animatie toevoegen bij het verslepen van de boeken, deze staat in de code maar hij is niet werkend. Hij werkte wel enigszins als ik een class toevoegde aan de li's in de HTML.
+  - De titels van sommige boeken waren lang en het was me niet gelukt om deze op een volgende regel te plaatsen. Wel heb ik het af kunnen snijden zodat de boeken netjes naast elkaar staan.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img src="readme-images/minknopfaal.png" alt="bummer">
 </details>
