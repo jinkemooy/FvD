@@ -116,6 +116,7 @@ section:nth-of-type(2) ul{
 	white-space: nowrap;
 }
 
+/* Empty state */
 ul#mijnList:empty::before {
 	text-align: center;
 	content: "Je boekenkast is nog leeg";
