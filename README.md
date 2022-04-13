@@ -122,6 +122,7 @@ Ik heb besloten om de tweede schets uit te werken voor deze opdracht, omdat ik d
   - Ik heb voor mensen die de pagina met toetsenbord navigeren buttons toegevoegd met + en - om aan je lijst toe te voegen en te verwijderen, maar als je de boeken sleept dan werken deze niet. Het was me niet gelukt om het wel zo te krijgen.
   - Ik wilde een animatie toevoegen bij het verslepen van de boeken, deze staat in de code maar hij is niet werkend. Hij werkte wel enigszins als ik een class toevoegde aan de li's in de HTML.
   - De titels van sommige boeken waren lang en het was me niet gelukt om deze op een volgende regel te plaatsen. Wel heb ik het af kunnen snijden zodat de boeken netjes naast elkaar staan.
+  - Ook wilde ik een empty state maken voor als je boekenkast nog leeg is, maar dit is ook niet gelukt helaas.
 
   <img src="readme-images/minknopfaal.png" alt="bummer">
 </details>
