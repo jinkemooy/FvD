@@ -38,6 +38,8 @@ button, summary {
 	--color-darkmode: #333;
 	--color-plus: rgb(136, 226, 100);
 	--color-min: rgb(240, 104, 80);
+	--color-accent: pink;
+	--color-accentdark: rgb(78, 12, 34);
 }
 
 
@@ -53,6 +55,10 @@ body {
   background-color:var(--color-background);
   margin: 0;
   padding: 0;
+  background-image: url("/images/achtergrond.png");
+  /* https://wallpapercave.com/kawaii-aesthetic-wallpapers */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* jouw code */
@@ -95,8 +101,30 @@ aside section {
 	margin-bottom: .5em;
 }
 
-aside label {
+aside section label {
 	margin-right: 1em;
+	font-size: 1.2em;
+}
+
+aside section button {
+	margin-right: 1em;
+	height: 2em;
+	border-radius: 1em;
+	border: none;
+	background-color: var(--color-accent);
+	transition: .5s;
+}
+
+aside section button:hover {
+	-webkit-box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.75);
+}
+
+aside section input {
+	padding-left: .5em;
+	border-radius: 1em;
+	border: .1em solid black;
 }
 
 section:nth-of-type(2) ul{
@@ -105,7 +133,6 @@ section:nth-of-type(2) ul{
 	background-size: auto 30%;
 	background-position: center bottom;
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	margin: 0;
 	padding: 0 0 .5em;
@@ -116,10 +143,24 @@ section:nth-of-type(2) ul{
 	white-space: nowrap;
 }
 
+/* Drag icoon 
+https://icon-library.com/icon/drag-icon-5.html*/
+section>img {
+	height: 6em;
+	position: absolute;
+	bottom: -7em;
+	left: 1em;
+	opacity: 35%;
+	z-index: 1000;
+}
+
 /* Empty state */
-ul#mijnList:empty::before {
-	text-align: center;
-	content: "Je boekenkast is nog leeg";
+ul#mijnLijst:empty {
+	justify-content: center;
+}
+
+ul#mijnLijst:empty::before {
+	content:"Sleep je favo boeken hierheen!";
 }
 
 ul li button {
@@ -159,46 +200,69 @@ section:nth-of-type(3) ul {
   li img {
   width: 7em;
   margin: .5em;
+  transition: 0.5s;
+  }
+
+  li img:hover {
+	  transform: scale(1.05);
+	  -webkit-box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.75);
+	  -moz-box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.75);
+	  box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.75);
   }
 
 
+/* Animatie */
+.drag {
+	animation: drag 5s 3;
+}
+
+@keyframes drag {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-20em);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
 /* Responsive */
-/* @media only screen and (min-width: 768px),
+@media only screen and (min-width: 768px),
 screen and (min-height: 1024px) {
-	section {
-		font-size: 1em;
+	@keyframes drag {
+		0% {
+			transform: translateY(-8em);
+		}
+		50% {
+			transform: translateY(-23em);
+		}
+		100% {
+			transform: translateY(-8em);
+		}
 	}
 }
 
 @media only screen and (min-width: 1280px),
 screen and (min-height: 1024px) {
-	section {
-		font-size: 2em;
-	}
-} */
-
-/* Animatie */
-.wiggle {
-	animation: wiggle .5s;
-	animation-iteration-count: 1;
-}
-
-@keyframes wiggle {
-	0% {
-		transform: rotate(0deg);
-	}
-	50% {
-		transform: rotate(-2deg);
-	}
-	100% {
-		transform: rotate(0deg);
+	@keyframes drag {
+		0% {
+			transform: translateY(-8em);
+		}
+		50% {
+			transform: translateY(-23em);
+		}
+		100% {
+			transform: translateY(-8em);
+		}
 	}
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: var(--color-darkmode);
+		background-image: url("/images/achtergronddark.png");
 	}
 	h1 {
 		color: var(--color-background);
@@ -215,11 +279,24 @@ screen and (min-height: 1024px) {
 	aside {
 		color: var(--color-background);
 	}
+	ul#mijnLijst:empty::before {
+		color: var(--color-background);
+	}
+	section:nth-of-type(2) ul{
+		background-image: url(/images/plankdark.png);
+	}
+	aside section button {
+		color: var(--color-background);
+		background-color: var(--color-accentdark);
+	}
 }
 
 /* Verminder beweging setting */
 @media (prefers-reduced-motion: reduce) {
 	body {
 		animation: none;
+	}
+	.drag {
+		display: none;
 	}
 }
